@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Tour = ({ id, name, info, image, price }) => {
+const Tour = ({ id, name, info, image, price, removeTour }) => {
   const [readmore, setReadmore] = useState(false);
 
   return (
@@ -25,7 +25,10 @@ const Tour = ({ id, name, info, image, price }) => {
         </button>
       </p>
 
-      <button className="absolute top-5 right-5 text-xs block mx-auto p-2 rounded-lg bg-gray-900 text-gray-100 hover:bg-black transition duration-300">
+      <button
+        onClick={() => removeTour(id)}
+        className="absolute top-5 right-5 text-xs block mx-auto p-2 rounded-lg bg-gray-900 text-gray-100 hover:bg-black transition duration-300"
+      >
         <svg
           className="w-4 h-4"
           xmlns="http://www.w3.org/2000/svg"
