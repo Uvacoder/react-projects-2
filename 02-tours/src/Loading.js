@@ -1,7 +1,11 @@
 import React from "react";
 
 const Loading = () => {
-  return <div className="mx-auto text-center text-3xl">Loading...</div>;
+  return (
+    <section className="max-w-xl mx-auto">
+      <div className="mx-auto text-3xl">Loading...</div>
+    </section>
+  );
 };
 
 export default Loading;
