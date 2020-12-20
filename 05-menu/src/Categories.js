@@ -2,7 +2,7 @@ import React from "react";
 
 const Categories = ({ categories, filterItems }) => {
   return (
-    <div className="my-10 whitespace-nowrap overflow-scroll">
+    <div className="my-10">
       {categories.map((category, index) => (
         <button
           key={index}
