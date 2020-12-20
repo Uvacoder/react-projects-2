@@ -5,3 +5,4 @@ https://d22he.csb.app/
 + useState
 + Math() for randomNumber
 + react-icons
++ Conditional Rendering
