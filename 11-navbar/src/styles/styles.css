@@ -1,0 +1,12 @@
+body {
+  background: #f1f1f1;
+}
+
+p {
+  color: #6b7280;
+}
+@media screen and (min-width: 640px) {
+  .link-container {
+    height: auto !important;
+  }
+}
