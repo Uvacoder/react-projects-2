@@ -1,0 +1,11 @@
+body {
+  background: #f1f1f1;
+  /* background-image: url("https://raw.githubusercontent.com/john-smilga/react-projects/cad22faf7131bdf7f6532da3e6bd8d07ffe9e890/13-stripe-submenus/final/src/images/hero.svg");
+  background-position: top center;
+  background-repeat: no-repeat; */
+  /* background-size: 100% 100%; */
+}
+
+p {
+  color: #6b7280;
+}
